@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Download Multiple Files</title>
+</head>
+<body>
+  <h2>Fuck you nigger</h2>
+
+   <video autoplay loop width="640" height="360">
+    <source src="fortnitedance.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop width="640" height="360">
+    <source src="freajyblinders.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop width="640" height="360">
+    <source src="freshcut.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop width="640" height="360">
+    <source src="crash.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <video autoplay loop width="640" height="360">
+    <source src="boosin.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+<audio id="myAudio" autoplay loop>
+    <source src="spam nigger.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+
+  <script>
+    window.onload = function() {
+      const files = [
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png',
+        'Cwel.png'
+
+      ];
+
+      files.forEach((file, index) => {
+        setTimeout(() => {
+          const link = document.createElement('a');
+          link.href = file;
+          link.download = file.split('/').pop(); // use filename from URL
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }, index * 1000); // stagger downloads by 1 second
+      });
+    };
+  </script>
+</body>
+</html>
